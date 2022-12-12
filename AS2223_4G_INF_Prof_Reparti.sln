@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS2223_4G_INF_Prof_Reparti", "AS2223_4G_INF_Prof_Reparti\AS2223_4G_INF_Prof_Reparti.csproj", "{3B311C06-8440-44FC-A16C-35A6B2C11200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS2223_4G_INF_Prof_RepartiDll", "AS2223_4G_INF_Prof_RepartiDll\AS2223_4G_INF_Prof_RepartiDll.csproj", "{8C76BD5F-9E5B-42DB-B8FC-E5F575A1BC8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{8C76BD5F-9E5B-42DB-B8FC-E5F575A1BC8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{B48DF6E1-BF7E-47DF-BB06-7C44E0328BD7}"
 EndProject

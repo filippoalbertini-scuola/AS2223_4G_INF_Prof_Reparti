@@ -19,7 +19,7 @@ namespace Library
 
         public string Description()
         { 
-            return name + " " + lastname; 
+            return name + " " + lastname + " (" + this.GetType().Name + ")"; 
         }    
     }
 }

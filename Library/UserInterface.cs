@@ -8,11 +8,11 @@ namespace Library
 {
     public class UserInterface : Employee
     {
-        int anniEsperienza;
+        int previousExperiences;
 
-        public UserInterface(string nome, string cognome, int anniEsperienza) : base(nome, cognome)
+        public UserInterface(string name, string lastName, int previousExperiences) : base(name, lastName)
         {
-            this.anniEsperienza = anniEsperienza;
+            this.previousExperiences = previousExperiences;
         }
     }
 }

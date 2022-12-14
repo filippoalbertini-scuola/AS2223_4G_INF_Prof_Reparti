@@ -12,14 +12,14 @@ namespace Library
         Employee[] employees;
         Employee headDepartment;
 
-        // dipendenti del reparto
+        // department members 
         int nEmployees;
 
         public Department(string nome, int nEmployees, Employee headDepartment)
         {
             this.name = nome;
 
-            // istanzia l'array per la gestione dell'associazione dipendenti (1 - n)
+            // creating array to manage employee association (1-n)
             employees = new Employee[nEmployees];
             nEmployees += 1;
 
@@ -44,6 +44,10 @@ namespace Library
             return true;
         }
 
+        /// <summary>
+        /// Get a list of employees of the department
+        /// </summary>
+        /// <returns></returns>
         public string GetEmployees()
         {
             string res = "";

@@ -8,11 +8,11 @@ namespace Library
 {
     public class Administration : Employee
     {
-        string knownSoftware;
+        string knownSoftwares;
 
-        public Administration(string name, string cognome, string knownSoftware) : base(name, cognome)
+        public Administration(string name, string cognome, string knownSoftwares) : base(name, cognome)
         {
-            this.knownSoftware = knownSoftware;
+            this.knownSoftwares = knownSoftwares;
         }
     }
 }

@@ -15,9 +15,9 @@ namespace Library
         // department members 
         int nEmployees;
 
-        public Department(string nome, int nEmployees, Employee headDepartment)
+        public Department(string name, int nEmployees, Employee headDepartment)
         {
-            this.name = nome;
+            this.name = name;
 
             // creating array to manage employee association (1-n)
             employees = new Employee[nEmployees];

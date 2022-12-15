@@ -10,7 +10,7 @@ namespace Library
     {
         string knownSoftwares;
 
-        public Administration(string name, string cognome, string knownSoftwares) : base(name, cognome)
+        public Administration(string name, string lastname, string knownSoftwares) : base(name, lastname)
         {
             this.knownSoftwares = knownSoftwares;
         }

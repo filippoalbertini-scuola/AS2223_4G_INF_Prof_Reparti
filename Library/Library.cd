@@ -16,9 +16,6 @@
     <ShowAsAssociation>
       <Field Name="headDepartment" />
     </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Field Name="employees" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Library.Employee">
     <Position X="5.25" Y="0.5" Width="1.5" />

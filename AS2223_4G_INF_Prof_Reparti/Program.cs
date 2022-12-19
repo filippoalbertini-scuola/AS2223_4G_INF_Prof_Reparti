@@ -3,7 +3,7 @@
 Console.WriteLine("Prof;AS 22/23 4G;12/12/22; Gestione reparti");
 
 // Department of Developer
-Department r = new Department("Developer",5,new Developer("Mario","Rossi","c#,javascript e typescript"));
+Department r = new Department("Developer",3,new Developer("Mario","Rossi","c#,javascript e typescript"));
 r.AddEmployee(new Developer("Ernesto", "Sparalesto", "c#"));
 r.AddEmployee(new Developer("Tizio", "Bacchini", "vb.net"));
 r.AddEmployee(new Developer("Caio", "Cecchini", "Java"));

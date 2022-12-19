@@ -21,7 +21,6 @@ namespace Library
 
             // creating array to manage employee association (1-n)
             employees = new Employee[nEmployees];
-            nEmployees += 1;
 
             this.headDepartment = headDepartment;
         }
